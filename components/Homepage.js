@@ -92,7 +92,7 @@ const Container = styled.div`
   @media (max-width: 1068px) {
     padding: 0 2rem;
   }
-  @media (max-width: 650px) {
+  @media (max-width: 810px) {
     padding: 0 1rem;
   }
 `;
@@ -120,7 +120,8 @@ const NavLinks = styled.div`
     flex-direction: column;
     left: 800px;
     display: none;
-  }
+    top: 80px;
+    background: whitesmoke;  }
 `;
 const NavItem = styled.div`
   margin: 0 20px;
@@ -136,7 +137,8 @@ const Hero = styled.div`
   grid-template-columns: repeat(2,1fr);
   gap: 70px;
 
-  @media (max-width: 1068px) {
+
+  @media (max-width: 810px) {
     grid-template-columns: repeat(1,1fr);
   }
 `;
@@ -147,16 +149,17 @@ margin-top: 6rem;
     color: #f3bb17;
   }
   @media (max-width: 1068px) {
-    font-size: 4rem;
+    font-size: 3rem;
+    line-height: 1.2;
   }
-  @media (max-width: 650px) {
+  @media (max-width: 810px) {
     font-size: 2.5rem;
     line-height:3rem;
   }
 `;
 const Paragraph = styled.p`
   color: grey;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 
   span {
     font-weight: bold;
@@ -176,7 +179,6 @@ const GetConnected = styled.div`
     color: #222237;
     background: #f3bb17;
     border-radius: 30px;
-    margin-top: .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,6 +188,9 @@ const GetConnected = styled.div`
       box-shadow: 0px 8px 15px rgba(243, 187, 23, 0.8);
       opacity: 0.9;
       color: #fff;
+    }
+    @media (max-width: 810px) {
+      width: 38%;
     }
   }
 `;
