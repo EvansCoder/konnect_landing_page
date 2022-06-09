@@ -134,7 +134,7 @@ const Hero = styled.div`
   justify-content: center;
   align-items: center;
   grid-template-columns: repeat(2,1fr);
-  gap: 40px;
+  gap: 70px;
 
   @media (max-width: 1068px) {
     grid-template-columns: repeat(1,1fr);
@@ -147,7 +147,11 @@ margin-top: 6rem;
     color: #f3bb17;
   }
   @media (max-width: 1068px) {
+    font-size: 4rem;
+  }
+  @media (max-width: 650px) {
     font-size: 2.5rem;
+    line-height:3rem;
   }
 `;
 const Paragraph = styled.p`
@@ -158,15 +162,12 @@ const Paragraph = styled.p`
     font-weight: bold;
   }
 `;
-const Grid_One = styled.div`
-flex: .5;`;
+const Grid_One = styled.div``
 const Grid_Two = styled.div`
-flex: .5;
 height: 100%;
 display: flex;
 justify-content: center;
 align-items: center;
-margin-top: 2rem;
 `;
 const GetConnected = styled.div`
   a {
@@ -175,7 +176,7 @@ const GetConnected = styled.div`
     color: #222237;
     background: #f3bb17;
     border-radius: 30px;
-    margin-top: 1rem;
+    margin-top: .5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -190,7 +191,7 @@ const GetConnected = styled.div`
 `;
 const MobileNav = styled.div`
 cursor: pointer;
-  @media (min-width: 1068px) {
+  @media(min-width: 1068px) {
     display: none;
   }
 `;
