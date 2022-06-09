@@ -92,6 +92,9 @@ const Container = styled.div`
   @media (max-width: 1068px) {
     padding: 0 2rem;
   }
+  @media (max-width: 650px) {
+    padding: 0 1rem;
+  }
 `;
 const Navbar = styled.div`
   display: flex;
@@ -167,7 +170,7 @@ margin-top: 2rem;
 `;
 const GetConnected = styled.div`
   a {
-    width: 40%;
+    width: 42%;
     padding: 1rem;
     color: #222237;
     background: #f3bb17;
