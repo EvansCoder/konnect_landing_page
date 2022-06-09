@@ -16,7 +16,7 @@ function Homepage() {
           </MobileNav>
           <Link href="/">
             <a>
-              <Image src={logo} />
+              <Image src={logo} alt="Logo"/>
             </a>
           </Link>
         </Logo>
@@ -72,7 +72,7 @@ function Homepage() {
             height={"400px"}
             src="https://www.youtube.com/embed/B5ZoJWDN5uQ"
             title="YouTube video player"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
           ></iframe>
